@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="IMAGES/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfoilo</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>web developer</p>
+                <h1>Hi, Iam <span>Abhinay</span> <br>From Telangana</h1>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="about">
+        <div class="container">
+           <div class="row">
+               <div class="about-col-1">
+                   <img src="IMAGES/work-1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quisquam quia ullam. Ipsam consectetur consequatur id quod, sapiente quaerat tempora tenetur labore ullam maxime quae iure beatae, officia sunt magnam dignissimos praesentium rem repudiandae sint deleniti nisi suscipit itaque molestiae illo. Nobis est assumenda dolorem, vitae dolorum ipsum asperiores voluptate</p>
+
+                    <div class="tab-title">
+                       <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                       <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing webapp interfaces</li>
+                            <li><span>web development</span><br>designing webapp interfaces</li>
+                            <li><span>sports</span><br>cricket</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br>Bv Raju institute of technology</li>
+                            <li><span>12th Standard</span><br>Narayana junior college</li>
+                            <li><span>School</span><br>Daffodils high school</li>
+                        </ul>
+                    </div>
+             </div>
+        </div>
+        </div>
+
+    </div>
+
+    <div id="services">
+        <h1 class="sub-title">my services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi ducimus dolorem, nam odio illo vero laudantium, dolorum incidunt temporibus animi? Placeat quia</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi ducimus dolorem, nam odio illo vero laudantium, dolorum incidunt temporibus animi? Placea</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi ducimus dolorem, nam odio illo vero laudantium, dolorum incidunt temporibus animi</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="IMAGES/work-2.png">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>the app connects to you</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/work-3.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
